@@ -13,10 +13,10 @@ def greet(who_to_greet):
     return greeting
 
 
-# print(greet("World"))
-# print(greet("Andrew"))
+print(greet("World"))
+print(greet("Andrew"))
 
-# r = requests.get("https://news.toyark.com/")
-# print(r.status_code)
+r = requests.get("https://news.toyark.com/")
+print(r.status_code)
 
 print(r.ok)
